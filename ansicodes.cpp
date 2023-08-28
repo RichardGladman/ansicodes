@@ -57,5 +57,4 @@ const std::string ANSICodes::REVERSE_OFF = "\033[27m";
 const std::string ANSICodes::HIDE = "\033[8m";
 const std::string ANSICodes::HIDE_OFF = "\033[28m";
 
-
 const std::string ANSICodes::RESET = "\033[0m";
