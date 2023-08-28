@@ -12,7 +12,8 @@ cd ansicodes
 mkdir build
 cd build
 cmake ..
-cmakesudo make install
+cmake
+sudo make install
 ```
 
 ## Usage
