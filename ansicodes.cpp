@@ -58,3 +58,5 @@ const std::string ANSICodes::HIDE = "\033[8m";
 const std::string ANSICodes::HIDE_OFF = "\033[28m";
 
 const std::string ANSICodes::RESET = "\033[0m";
+
+const std::string ANSICodes::CLEAR_SCREEN = "\033[2J";

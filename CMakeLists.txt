@@ -6,7 +6,7 @@ message("Processing ansicodes subdirectory...")
 
 add_library(ansicodes_lib ansicodes.cpp)
 
-target_include_directories(ansicodes_lib PUBLIC $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/include> $<INSTALL_INTERFACE:include/sortdemo>)
+target_include_directories(ansicodes_lib PUBLIC $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/include> $<INSTALL_INTERFACE:include/ansicodes>)
 
 install(FILES include/ansicodes.h DESTINATION ${CMAKE_INSTALL_PREFIX}/include/${CMAKE_PROJECT_NAME})
 

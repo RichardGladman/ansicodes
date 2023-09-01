@@ -12,7 +12,7 @@ cd ansicodes
 mkdir build
 cd build
 cmake ..
-cmake
+make
 sudo make install
 ```
 

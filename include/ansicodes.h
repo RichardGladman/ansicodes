@@ -67,6 +67,8 @@ public:
     static const std::string HIDE_OFF;
 
     static const std::string RESET;
+    
+    static const std::string CLEAR_SCREEN;
 };
 
 #endif // ANSICODES_H
